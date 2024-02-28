@@ -44,6 +44,7 @@
      <Compile Include="Assets\Script\Combat\CombatTarget.cs" />
      <Compile Include="Assets\Script\Core\ActionScheduler.cs" />
      <Compile Include="Assets\Script\Combat\Health.cs" />
+     <Compile Include="Assets\Script\Control\AIController.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
