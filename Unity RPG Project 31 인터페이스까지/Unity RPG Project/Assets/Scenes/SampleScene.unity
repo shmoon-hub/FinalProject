@@ -991,6 +991,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465096, guid: f65a7bee03bbc4542a4af2c67922b549, type: 3}
   m_PrefabInstance: {fileID: 1600072766}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1627544121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8195313264435881622, guid: ea245b8ab12f5b643b5e99fd85457bfd, type: 3}
+  m_PrefabInstance: {fileID: 384870319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1723056950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1338,7 +1343,7 @@ PrefabInstance:
     - target: {fileID: 1238608233438397641, guid: 36dac71a244e73b44a8be5c3ea3dd8c3, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1627544121}
     - target: {fileID: 7801883975066628804, guid: 36dac71a244e73b44a8be5c3ea3dd8c3, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.26041877
