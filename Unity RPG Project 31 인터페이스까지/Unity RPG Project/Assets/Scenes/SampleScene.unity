@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.1
+      value: -7.04
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.y
@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.57
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalRotation.x
@@ -356,15 +356,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.29
+      value: -13.08
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.96
+      value: -4.63
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalRotation.x
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f694ca891aae84aa028c0eea6c3798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 20
+  healthPoints: 8
 --- !u!1001 &833795492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -654,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 887532732195634236, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: healthPoints
-      value: 20
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1158215370831095127, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.x
@@ -666,15 +666,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.2
+      value: -14.99
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.68
+      value: -2.9900002
       objectReference: {fileID: 0}
     - target: {fileID: 2682097182780958857, guid: f2f89b25d9577c046a47f3b85cb21792, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f694ca891aae84aa028c0eea6c3798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 20
+  healthPoints: 8
 --- !u!1001 &7801883974950821808
 PrefabInstance:
   m_ObjectHideFlags: 0
