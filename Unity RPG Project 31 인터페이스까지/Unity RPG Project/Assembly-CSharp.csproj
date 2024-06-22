@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>D:\2020.1.1f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -11,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BF30D42A-955A-0B39-A486-05CA687DB4AF}</ProjectGuid>
+    <ProjectGuid>{0f2b9128-c05e-8749-d5e2-dbbcca35271c}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -24,16 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_1;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_10;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -47,581 +36,1146 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Crystal_Mine\Spline_Tool\Scripts\Mesh_Maker.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\SoundsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GroundIndicatorManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\UniqueMagicAbilities\SpawnCometsScript.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStatePatrolTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\RPGBCharacterWorldInteraction.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\PlayerCamera.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Resources\EditorData\RPGBuilderEditorFilters.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGGameScene.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIState.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Mission UI\CargoTrigger.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\GroundHitDetection.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\CharacterAnimator.cs" />
+     <Compile Include="Assets\RuneFire_Studios\WaypointsFree\Scripts\WaypointGameObject.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBGender.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\GameSettingsData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\AnimatorSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\BonusManager.cs" />
+     <Compile Include="Assets\MyScript\PortalManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\QuestInteractionPanel.cs" />
+     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\SmoothMouseLook.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ActionBarSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCircleTargetTemplate.cs" />
+     <Compile Include="Assets\MyScript\ATMInteract.cs" />
+     <Compile Include="Assets\Free Wood Door Pack\Script\FPSController.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\WeaponTemplateSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\MerchantItemSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\WorldData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\NPCSpawnerSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ScreenTextObject.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\PauseTrigger.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGDialogue.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBNPCFamily.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGBGameActions.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ClassSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\VisualEffectTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGWeaponTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ContainerPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AnimationTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TargetInfoDisplayManager.cs" />
+     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\FoliageInteractor.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\QuestTrackerSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\GameActionsData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\SpellbookNodeSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\InventoryBagSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\GameModifierSlotDataHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\BossUISlotHolder.cs" />
+     <Compile Include="Assets\CaptainCatSparrow\Portraits_1\Demo\Scripts\Demo.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGRace.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAppearance.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\EconomyData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\RPGBThirdPersonController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\CameraParticleObject.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RegionManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\VisualUtilities.cs" />
+     <Compile Include="Assets\Malbers Animations\Common\Scripts\Readme\Readme.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\TimeText.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBItemRarity.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGTalentTree.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\SpringArm.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStatePetFollowOwner.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\Region.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\TestHelper.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\InteractableObjectSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\UILineRenderer.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Nodes\RPGDialogueBaseNode.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Events\UIEvents.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBActionKeyCategory.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\FactionManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\GameActionsTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterExperienceBarDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\QuestItemSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderUISettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGFaction.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GameState.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateIdle.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGMerchantTable.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SkillBookPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Interfaces\IDisplayPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\WorldUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGCraftingRecipe.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderWorldSettings.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\InteractableObjectData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\Win32.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIEntity.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBArmorSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\WorldDroppedItem.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AIPhaseActionsTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\RPGGeneralDATA.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Events\GeneralEvents.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Nodes\RPGDialogueTextNode.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\CustomAttributes\RPGBCustomAttributes.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderEconomySettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBHealingType.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AIPhaseTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\MerchantPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\OptionsPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\StatAllocationManager.cs" />
+     <Compile Include="Assets\RuneFire_Studios\WaypointsFree\Scripts\WaypointsTraveler.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStatePetFollowOwnerTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBTextKeyword.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ShapeshiftSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStatePatrol.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\InteractiveNode.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderEditorSettings.cs" />
+     <Compile Include="Assets\FantasyEnvironments\Environments\Town\Scripts\Door.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\PetPanelDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ScreenSpaceStateDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGLootTable.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBWeaponSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\BodyPart.cs" />
+     <Compile Include="Assets\Apartment_Door\Scripts\DoorController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\AbilityTooltip.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\AssetIDHandler.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGLevelsTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\UIGridRenderer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\PlayerInput.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateChase.cs" />
+     <Compile Include="Assets\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGSpecies.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CraftingManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGCraftingStation.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGItem.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterPortraitDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\PlayerDialogueOptionSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGCurrency.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\RendererExtension.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCombatTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\SaverIdentifier.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ConfirmationPopupManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ActiveBlockingDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBWeaponHandSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterCastingBar.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\NPCSpawner.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ItemSlotHolder.cs" />
+     <Compile Include="Assets\MyScript\UIController.cs" />
+     <Compile Include="Assets\RuneFire_Studios\WaypointsFree\Scripts\WaypointsGroup.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GatheringManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterStatesDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Mission UI\DoorInteract.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterLevelDisplay.cs" />
+     <Compile Include="Assets\MyScript\GameMaineMenuController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\WorldInteractableDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\PauseManager.cs" />
+     <Compile Include="Assets\Crystal_Mine\Spline_Tool\Scripts\Path_Comp.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\StatAllocationPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GameModifierManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\GetItemSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\WorldDroppedItemDataHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGNpc.cs" />
+     <Compile Include="Assets\Apartment_Door\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\QuestJournalPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\QuestObjectiveTextSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBAbilityCooldownTag.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBNodeSocket.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\NPCSpawnerSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\QuestManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderGeneralSettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\CharacterEntries.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\CharacterGraveyard.cs" />
+     <Compile Include="Assets\Reversed Interactive\The Portal Collection\Scripts\SimpleCameraControllerPortals.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\RegionTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\InteractableObjectSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\InventoryPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\AIData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\AlertMessagesDisplay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ContainerUISlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CombatManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateWalkBackward.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\KeybindSlotHolder.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\PatrolPath.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\CharacterUpdater.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBStatCategory.cs" />
+     <Compile Include="Assets\Free Wood Door Pack\Script\Door.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\NodeSockets.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCircleTarget.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ActionBarManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\SocketSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CombosDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CraftingItemSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterDeathPopUp.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGEnchantment.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\RPGBuilderTemplatesData.cs" />
+     <Compile Include="Assets\Apartment_Door\Scripts\KeyController.cs" />
+     <Compile Include="Assets\MyScript\MenuController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBDamageType.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\FactionSlotDataHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ObjectSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderPersistenceSettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterChannelingBar.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\RPGBuilderJsonSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ScreenSpaceNameplates.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\PlayerCombatEntity.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\EntityStateSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ContainerObjectSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBGemSocketType.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\Toolbar.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateFlee.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\StatBarDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ScreenTextDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateIdleTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGDialogueGraph.cs" />
+     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGGameModifier.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\Util.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ItemsGainEventDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGCombo.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Mission UI\LastPortalInteract.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Events\CombatEvents.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\ProbabilityUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\RequirementsTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\ContainerObject.cs" />
+     <Compile Include="Assets\Malbers Animations\Common\Scripts\Events\UnityEventRaiser.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AnimationsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBEffectTag.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\SkillSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ItemTooltip.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\NPCInteractionsPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\SelectCharacterOnUIClick.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\EconomyUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGTask.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\CombatEntity.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBArmorType.cs" />
+     <Compile Include="Assets\Crystal_Mine\Spline_Tool\Scripts\Trail_Mesh.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGBonus.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\QuestStateSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateWalkBackwardTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\StatAllocationSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGBuilderDatabaseEntry.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TreePointsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGStat.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\BodyCullingTemplate.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBFactionStance.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AIPhaseAbilitiesTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Mission UI\CarMovement.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RPGBuilderEssentials.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ScreenSpaceWorldDroppedItems.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\AbilityManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\EnchantCostSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\MinimapDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\EquipmentItemSlotDisplayHandler.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\TransformSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GameDatabase.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RPGBDemoTutorialDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CrosshairDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\EnchantingManager.cs" />
+     <Compile Include="Assets\MyScript\BackgroundMusicPlayer.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\PlayerAnimatorLayer.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBBodyPart.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\CombatCalculations.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\FPSCounter.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\QuestTrackerDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterInteractionBarDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\AnimatorSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\Controller.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Events\GameEvents.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RequirementsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\NameplatesDATAHolder.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderCombatSettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGWorldPosition.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\WeaponTransformTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\EnchantSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CraftingRecipeSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGSpellbook.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGGearSet.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Events\WorldEvents.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\ProgressionUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CraftingPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\ObjectActionDestroyTrigger.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\MobCombatEntity.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ColliderSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\LoadingScreenManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\RPGBuilderUtilities.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Interfaces\IPlayerInteractable.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCombatIdle.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGResourceNode.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\LootBag.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\ComboSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGSkill.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGAbility.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\StatCalculator.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\RigidbodySaver.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\StatListTemplate.cs" />
+     <Compile Include="Assets\Crystal_Mine\Spline_Tool\Scripts\Math_Functions.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\EnchantingPanel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\MusicManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SpellbookPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\UniqueProjectiles\ProjectileMoveScript.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CustomInputManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\DataSavingSystem.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\PlayerInfoDisplayManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\PersistenceManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\CharacterLoader.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBItemType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TimeManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\GameActionsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\MainMenuManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ShapeshiftingSlotsDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\RPGItemDATA.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\RPGCombatDATA.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\CombatData.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Resources\EditorData\RPGBuilderEditorTheme.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\RequirementsData.cs" />
+     <Compile Include="Assets\Polyart\PolyartStudio\Scripts\WaterReflection.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\SoundTemplate.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\TransformSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ContainerObjectSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\CraftingStation.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateChaseTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\LootItemSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\NPCInteractionTextOption.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ColliderSaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCombat.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\RigidbodySaverTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\ObjectActionTrigger.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\ProjectileHitDetection.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGQuest.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\WeaponTemplatesPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\Character.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TaskCheckerManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\MeshParticleManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\CombatUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\GroundIndicator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGClass.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\NPCSpawnSlotHolder.cs" />
+     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\InterpolationCurve.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SocketingPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\ScreenOverlayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGTreePoint.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\SpellbookSlot.cs" />
+     <Compile Include="Assets\Blink\Art\Animals\Stylized\Demo_Animals\DemoData\MaterialSwitch.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Combat\ProjectileSlowZone.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\DevUIManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTypeEntries\RPGBWeaponType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\MerchantTableSlot.cs" />
+     <Compile Include="Assets\RuneFire_Studios\WaypointsFree\Scripts\Waypoint.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\StatDataHolder.cs" />
+     <Compile Include="Assets\Antigua Guatemala Santa Catalina Arch 3D Model\Sample Scene Utilities\CameraSwitcher.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGEffect.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\RPGBThirdPersonCharacterControllerEssentials.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\LevelingManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\DialoguePanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Utility\MathParabola.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseData\GeneralData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Blink\Art\Animals\Stylized\Demo_Animals\DemoData\AnimationDemo.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderProgressionSettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\VisualEffectsManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\DemoSceneDisclaimer.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Resources\EditorData\RPGBuilderEditorDATA.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseEntries\RPGDialogueGraphUtilities.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\SaveSystem\CharacterData.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CurrencyDisplaySlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\NaughtyCharacter\Scripts\Helpers\FpsCounter.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\SettingsPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateFleeTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\RPGBCharacterController.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\LootPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CombatTreeSlot.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\AbilityTooltipElement.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CharacterPanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\DevStatSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\AIBehaviorTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\TreeNodeHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\InventoryManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderPartners.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Character\RPGBCharacterControllerEssentials.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\RegionMessageDisplayManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\RPGBuilderSettings\RPGBuilderCharacterSettings.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Persistence\ObjectSaver.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\World\InteractableObject.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\TalentTreePanel.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateRoamingTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Scripts\UniqueProjectiles\RotateToMouseScript.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\Managers\CursorManager.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\RaceSlotHolder.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\UI\CharacterNameDisplay.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateCombatIdleTemplate.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\AI\AIStateRoaming.cs" />
+     <Compile Include="Assets\Blink\Tools\RPGBuilder\Scripts\DatabaseTemplates\NPCPresetTemplate.cs" />
+     <Compile Include="Assets\MyScript\EnemyAttack.cs" />
+     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Mask8Toon.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\GameModifiers\Placeholder.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\DragonEggs_Shader.shader" />
+     <None Include="Assets\Crystal_Mine\Spline_Tool\Scripts\LICENSE.txt" />
+     <None Include="Assets\SineVFX\TranslucentCrystals\Readme.txt" />
+     <None Include="Assets\___www.unityassetcollection.com___.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_Scroll01.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color4x2.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\StatListTemplates\Placeholder.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\UI\Fonts\Titillium\TitilliumWebLicense.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Bonuses\Placeholder.txt" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Foliage.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Splash_Fade.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_FoliageBillboard.shader" />
+     <None Include="Assets\Courtroom Interior Kit\Documentation\Read Me.txt" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color4x4.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+     <None Include="Assets\SineVFX\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Mask4Toon.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Weapons\Sources\Shaders\PT_Weapons_Shader_Toon.shader" />
+     <None Include="Assets\Julien Tonsuso\Modular Fantasy Bridges\README.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Mask4Realistic.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Alpha.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Malbers Animations\Dragons\Common\Eyes\Dragon_Eyes.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Golem Shader.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Fresnel_Ice.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\UI\Fonts\Acme\AcmeLicense.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\UI\Fonts\Alata\AlataLicense.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\TitanForge Assets\TitanForge Sample Pack\Materials\TitanForge Sample Glass.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Wave.shader" />
+     <None Include="Assets\Hunter_1\Stand\Standard-2Sided.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Water_River.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\UI\Fonts\Merriweather\MerriweatherLicense.txt" />
+     <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Particles_Erosion_01.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Fur.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color3x3.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Weapons\Sources\Shaders\PT_Weapons_Shader_PBR.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Simple_Foliage.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color4x3.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Wind Shader.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Waterfall.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Recipes\Placeholder.txt" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Enchantments\Placeholder.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\NaughtyCharacter\NaughtyCharacterLicense.txt" />
+     <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Heat_Haze_01.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Shaders\AdditiveMobile_Scroll01.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\TitanForge Assets\TitanForge Sample Pack\TitanForge Sample Shader.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\Polyart\Shaders\Dreamscape_GrassTerrain.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Skills\Placeholder.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Species\Placeholder.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlendedMobile_Scroll01.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Splashv2.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyLicenses.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\GearSets\Placeholder.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_WaterfallFoam.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Masked_Lit.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Sphere.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Points\Placeholder.txt" />
+     <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_WaterfallFoam_Volumetric.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Alpha_grad.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\AnisotropicCircular.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Tower.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\PA_Grid.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\WeaponTemplates\Placeholder.txt" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\AnisotropicWard.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\MWater2.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Distortion.shader" />
+     <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Fire_Flames_01.shader" />
+     <None Include="Assets\RuneFire_Studios\WaypointsFree\_Visuals\Kenney Assets\Mini Car Kit\License.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_EdgeSoft.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\ResourceNodes\Placeholder.txt" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface_WorldAligned.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\PersistentData\__DO NOT DELETE THESE FILES__.txt" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\VS_indirect.cginc" />
+     <None Include="Assets\RuneFire_Studios\WaypointsFree\_Visuals\Kenney Assets\Racing Kit\License.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Splash.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlended_Scroll01.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\DialoguesExternalData\Placeholder.txt" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Mask.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color4x4 v2.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Combos\Placeholder.txt" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Color4x2 Emission.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_WorldAlignedBlend.shader" />
+     <None Include="Assets\_www.unityassetcollection.com.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\Shaders\GroundIndicatorBasic.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\Polyart\Stone\Dreamscape_StonesDetail.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface_Coverage.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\Dialogues\Placeholder.txt" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\SimpleOutline.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Water.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Art\BlinkVFX\Shaders\BL_Splashv3.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\ThirdPartyAssets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Shaders\IceShader01.shader" />
+     <None Include="Assets\Malbers Animations\Common\Shaders\Mask8Realistic.shader" />
+     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Grass.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Blink\Tools\RPGBuilder\Resources\Database\CraftingStations\Placeholder.txt" />
+     <None Include="Assets\Malbers Animations\Common\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\2020.1.1f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\2020.1.1f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+        <HintPath>D:/2020.1.10f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>D:/2020.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:/Users/ssy63/Downloads/New Final RPG Project builder 싱글완성 2/New Final RPG Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\Combat\Fighter.cs" />
-     <Compile Include="Assets\Script\Core\IAction.cs" />
-     <Compile Include="Assets\Script\Movement\FollowCamera.cs" />
-     <Compile Include="Assets\Script\Control\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Movement\Mover.cs" />
-     <Compile Include="Assets\Script\Combat\CombatTarget.cs" />
-     <Compile Include="Assets\Script\Core\ActionScheduler.cs" />
-     <Compile Include="Assets\Script\Core\Health.cs" />
-     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
-     <None Include="Assets\Asset Packs\Fantasy Skybox FREE\Readme.txt" />
-     <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
-     <None Include="Assets\Asset Packs\Fantasy Skybox FREE\ReleaseNotes.txt" />
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/종합프로젝트/Unity RPG Project 31 인터페이스까지/Unity RPG Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AIModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ARModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AccessibilityModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AndroidJNIModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AnimationModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AssetBundleModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AudioModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClothModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterInputModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClusterRendererModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CoreModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CrashReportingModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DSPGraphModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DirectorModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GameCenterModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GridModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HotReloadModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.IMGUIModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ImageConversionModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputLegacyModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.JSONSerializeModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.LocalizationModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ParticleSystemModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PerformanceReportingModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PhysicsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Physics2DModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ProfilerModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ScreenCaptureModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SharedInternalsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteMaskModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteShapeModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.StreamingModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SubstanceModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SubsystemsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TLSModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainPhysicsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextCoreModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextRenderingModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TilemapModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIElementsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIElementsNativeModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UNETModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UmbraModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityAnalyticsModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityConnectModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityTestProtocolModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAudioModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestTextureModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestWWWModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VFXModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VRModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VehiclesModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VideoModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VirtualTexturingModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.WindModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XRModule">
- <HintPath>D:/2020.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="netstandard">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Win32.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.AppContext">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Concurrent">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.NonGeneric">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Specialized">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.EventBasedAsync">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.TypeConverter">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
- </Reference>
- <Reference Include="System.Console">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
- </Reference>
- <Reference Include="System.Data.Common">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Contracts">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Debug">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.FileVersionInfo">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Process">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.StackTrace">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TextWriterTraceListener">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Tools">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TraceSource">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Tracing">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Dynamic.Runtime">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Calendars">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Extensions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.ZipFile">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
- </Reference>
- <Reference Include="System.IO">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.DriveInfo">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Watcher">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.IsolatedStorage">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.MemoryMappedFiles">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Pipes">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.UnmanagedMemoryStream">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Expressions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Parallel">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Queryable">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NameResolution">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NetworkInformation">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Ping">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Requests">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Security">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Sockets">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebHeaderCollection">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets.Client">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
- </Reference>
- <Reference Include="System.ObjectModel">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Extensions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Reader">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.ResourceManager">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Writer">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.VisualC">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Extensions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Handles">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Numerics">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Formatters">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Json">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Xml">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Claims">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Algorithms">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Csp">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Encoding">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Primitives">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.X509Certificates">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Principal">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.SecureString">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.Extensions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.RegularExpressions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Overlapped">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Parallel">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Thread">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.ThreadPool">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Timer">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
- </Reference>
- <Reference Include="System.ValueTuple">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.ReaderWriter">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XDocument">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlDocument">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlSerializer">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath.XDocument">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
- </Reference>
- <Reference Include="mscorlib">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Composition">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
- </Reference>
- <Reference Include="System.Core">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
- </Reference>
- <Reference Include="System">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.Net">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Web">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
- </Reference>
- <Reference Include="System.Transactions">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
- </Reference>
- <Reference Include="System.Web">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
- </Reference>
- <Reference Include="System.Windows">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.Linq">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.Serialization">
- <HintPath>D:/2020.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
- </Reference>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{7e7d1726-7b34-dc3a-aa34-b8dba5bcca0a}</Project>
+      <Name>XNode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="XNodeEditor.csproj">
+      <Project>{e5f80f03-c9e7-c8d5-b285-1fbb54ac3299}</Project>
+      <Name>XNodeEditor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
